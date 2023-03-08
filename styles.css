@@ -86,7 +86,7 @@ div.rowTitle{
 }
 
 .btn{
-    margin: 5% 3% 5% 0;
+    margin: 5% 0% 5% 0%;
     background-color: #4993FA;
     color: #1f1f1f;
 }
@@ -253,7 +253,8 @@ div.rowTitle{
 #cta {
     background-color: #ebebeb;
     text-align: center;
-    padding: 7% 15%;
+    padding: 1% 15%;
+    padding-top: 5%;
 }
 
 #cta p{
@@ -318,10 +319,23 @@ div.rowTitle{
     .rowTitle button {
         font-size: 1.25rem;
     }
-}
 
-@media (max-width: 503px) {
-    .rowTitle button{
-        font-size: 1rem;
+    #cta{
+        padding: 5% 10%;
+    }
+    .btn {
+        margin: 3% 0% 3% 0%;
+    }
+    .boxFeatures{
+        display: flex;
+        align-items: center;
+    }
+    .imgFeature{
+        width: 30%;
+        float: left;
+        margin-right: 2%;
+    }
+    .color{
+        overflow: hidden;
     }
 }
