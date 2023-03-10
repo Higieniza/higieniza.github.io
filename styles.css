@@ -311,11 +311,32 @@ div.rowTitle{
         transform: rotate(0deg);
         width: 40%;
     }
-
+    .navbar>.container{
+        justify-content: center;
+        padding-right: 0px;
+    }
+    #imgLogo{
+        width: 90%;
+    }
+    .container button{
+        display: none;
+    }
     .container-fluid{
         text-align: center;
+        padding: 9%;
     }
-
+    .container-fluid h1{
+        font-size: 6rem;
+    }
+    #pTitle{
+        font-size: 2.5rem;
+        padding: 5%;
+    }
+    .container-fluid a,
+    #testimonials a,
+    #cta a {
+        font-size: 3rem;
+    }
     .rowTitle button {
         font-size: 1.25rem;
     }
@@ -327,15 +348,36 @@ div.rowTitle{
         margin: 3% 0% 3% 0%;
     }
     .boxFeatures{
-        display: flex;
+        /* display: flex; */
         align-items: center;
     }
     .imgFeature{
-        width: 30%;
-        float: left;
-        margin-right: 2%;
+        width: 80%;
+        /* float: left; */
+    }
+    .boxFeatures p,
+    #cta p{
+        font-size: 2.5rem;
     }
     .color{
         overflow: hidden;
+        margin: 0;
+    }
+    #features h3{
+        font-size: 4rem;
+    }
+    #testimonials{
+        padding: 5% 0%;
+    }
+    #testimonials h2,
+    #cta h2{
+        font-size: 4.5rem;
+    }
+    #testimonials img{
+        width: 100%;
+    }
+    #footer p,
+    #footer i{
+        font-size: 2.3rem;
     }
 }
