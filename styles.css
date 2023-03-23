@@ -1,31 +1,25 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1{
     color: rgb(5, 5, 5);
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    font-size: 3.5rem; 
+    font-size: 3rem; 
     line-height: 1.5;
 }
 
 #pTitle{
-    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
 }
 
 h2{
-    font-size: 5em;
+    font-size: 2.5em;
 }
 
 #title {
     background-color: #ebebeb;
-}
-
-.container-fluid {
-    padding: 2% 10% 5%;
 }
 
 .container {
@@ -40,7 +34,34 @@ h2{
     color: rgb(70, 70, 70);
 }
 
+#provaSocial{
+    background-color: white;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 2rem;
+}
+
+#provaSocial p{
+    margin: 2% auto;
+}
+
+/* Paddings */
+.container-fluid {
+    padding: 2% 10% 4% 10%;
+}
+
+#features,
+#testimonials,
+#location,
+#about,
+#footer{
+    padding: 4% 10%;
+}
+
 /* Headings */
+h1, h2, h3{
+    font-weight: bold;
+}
 
 .h2-price {
     margin-bottom: 7%;
@@ -86,52 +107,44 @@ div.rowTitle{
 }
 
 .btn{
-    margin: 5% 0% 5% 0%;
+    margin: 5% 0% 0% 0%;
     background-color: #4993FA;
     color: #1f1f1f;
+    font-size: 2rem;
 }
 
 .btn:hover{
     background-color: #686868;
 }
 
+/* CSS for Features */
 #features{
     text-align: center;
-    padding: 4% 10%;
     background-color: white;
     position: relative;
 }
 
-.imgFeature{
-    max-width: 100%;
-}
-
-#features i{
+#features .fa-solid{
     font-size: 3rem;
-    color: #ef8172;
-}
-#features i:hover{
-    color: #ff4c68;
+    color: #00050c;
 }
 
 #features h3{
     font-family: 'Quicksand', sans-serif;
-    text-align: left;
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
     font-weight: 700;
     margin-top: 0.5rem;
 }
 
-.boxFeatures{
-    padding: 3%;
+.itemFeatures {
+        margin: 8% auto;
 }
 
-.boxFeatures p{
-    color: #1f1f1f;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    text-align: left;
-    padding-top: 4%;
+#features p,
+#about p{
+    color: rgb(102, 102, 102);
+    font-size: 1.5rem;
 }
 
 .color{
@@ -146,32 +159,23 @@ div.rowTitle{
     background-color: #ebebeb;
 }
 
-#testimonials img{
-    width: 100%;
-    /* border-radius: 100%; */
-    margin-right: 1rem;
+#testimonials button:hover{
+    background-color: #d1d1d1;
 }
 
 .carousel-indicators{
-    /* position: relative; */
+    position: relative;
+    margin: 0%;
+    margin-top: 2%;
 }
 
-#carouselTestimonial{
-    padding: 5% 15%;
-}
-
-#ctaTestimonials{
-    margin: 2% 0% 5% 0%;
-}
-
-#testimonials button:hover{
-    background-color: #d1d1d1;
+#testimonials img{
+    width: 60%;
 }
 
 /* CSS for Location */
 #location {
     text-align: center;
-    padding: 4% 10%;
     background-color: rgb(255, 255, 255);
     position: relative;
 }
@@ -193,120 +197,50 @@ div.rowTitle{
     margin-top: 0.5rem;
 }
 
-.boxLocation {
-    padding: 3%;
-}
-
 .boxLocation p {
     color: #1f1f1f;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     text-align: left;
-    padding-top: 4%;
-}
-/* End CSS for Location */
-
-
-/* CSS for Press */
-#press{
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
 }
 
-#press img{
-    width: 15%;
-    margin: 3% 20px 20px 20px;
-}
-
-
-/* CSS for Pricing */
-#pricing{
-    padding: 5% 6%;
-    text-align: center;
-    background-color: #ebebeb;
-}
-
-#pricing p{
-    line-height: 1;
-}
-
-.price-pricing{
-    color: rgb(122, 122, 122);
-    font-weight: 400;
-}
-
-.card-header h3{
-    margin-bottom: 0;
-}
-
-.card-body button{
-    font-weight: 500;
-    font-size: 1.1rem;
-}
-
-.pricing-column{
-    padding: 4% 2%;
-}
-
-/* CSS for Call to Action */
-#cta {
+/* CSS for About */
+#about{
     background-color: #ebebeb;
     text-align: center;
-    padding: 1% 15%;
-    padding-top: 5%;
 }
-
-#cta p{
-    color: #1f1f1f;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.4rem;
-    text-align: center;
+#about p{
+    font-size: 1.3rem;
 }
 
 /* CSS for Footer */
 #footer{
     text-align: center;
-    padding: 4% 15%;
+    background-color: #292929;
 }
 
 #footer a{
-    margin: auto 30px;
-    color: black;
+    margin: auto 10%;
+    color: rgb(255, 255, 255);
 }
 
 #footer i{
-    font-size: 25px;
+    font-size: 2.3rem;
 }
 
 #footer p{
-    color: rgb(122, 122, 122);
-    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.712);
+    margin-top: 3%;
+    margin-bottom: 0px;
 }
 
 
 /* Responsiviness */
-
-@media (max-width: 1282px) {
-    .rowTitle h1{
-        font-size: 3rem;
+/* TABLET */
+@media (max-width: 991px) {
+    #title h1{
+        margin-bottom: 0px;
     }
-}
-
-
-@media (max-width: 1034px){
-    .imgTitle{
-        width: 60%;
-        position: static;
-    }
-
-    .rowTitle button{
-        margin-right: 9px;
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 992px) {
     .imgTitle{
         transform: rotate(0deg);
         width: 40%;
@@ -315,32 +249,80 @@ div.rowTitle{
         justify-content: center;
         padding-right: 0px;
     }
+    .navbar-brand{
+        margin-right: 0px;
+    }
     #imgLogo{
-        width: 90%;
+        width: 50%;
+    }
+    div.rowTitle{
+        margin-top: 3%;
     }
     .container button{
         display: none;
     }
-    .container-fluid{
+    .container-fluid,
+    #features,
+    #testimonials,
+    #location,
+    #about,
+    #footer{
         text-align: center;
-        padding: 9%;
-    }
-    .container-fluid h1{
-        font-size: 6rem;
-    }
-    #pTitle{
-        font-size: 2.5rem;
-        padding: 5%;
+        padding: 6% 10%;
     }
     .container-fluid a,
+    #features a,
     #testimonials a,
-    #cta a {
-        font-size: 3rem;
+    #about a{
+        font-size: 2rem;
+    }
+    #pTitle{
+        padding: 2% 0% 2% 0%;
+        margin-bottom: 0px;
+    }
+    #provaSocial{
+        font-size: 1.7rem;
+    }
+    #provaSocial p{
+        margin-bottom: 0px;
+    }
+    #features h2,
+    #testimonials h2{
+        font-size: 2.3rem;
+    }
+    #features h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    #features p {
+        font-size: 1.2rem;
+    }
+    .itemFeatures{
+        margin: 8% auto;
+    }
+    #features .fa-solid {
+        font-size: 1.7rem;
+    }
+    #carouselTestimonial{
+        padding: 0%;
+    }
+    .carousel-indicators{
+        position: relative;
+        margin: 2%;
+    }
+    #location i{
+        font-size: 2.5rem;
+    }
+    #footer p{
+        font-size: 1.3rem;
+    }
+    #footer i{
+        font-size: 2.3rem;
+        padding: 0% 5% 0% 5%;
     }
     .rowTitle button {
         font-size: 1.25rem;
     }
-
     #cta{
         padding: 5% 10%;
     }
@@ -348,12 +330,10 @@ div.rowTitle{
         margin: 3% 0% 3% 0%;
     }
     .boxFeatures{
-        /* display: flex; */
         align-items: center;
     }
     .imgFeature{
         width: 80%;
-        /* float: left; */
     }
     .boxFeatures p,
     #cta p{
@@ -363,21 +343,104 @@ div.rowTitle{
         overflow: hidden;
         margin: 0;
     }
-    #features h3{
-        font-size: 4rem;
-    }
-    #testimonials{
-        padding: 5% 0%;
-    }
-    #testimonials h2,
-    #cta h2{
-        font-size: 4.5rem;
-    }
     #testimonials img{
         width: 100%;
     }
-    #footer p,
-    #footer i{
-        font-size: 2.3rem;
+}
+
+
+/* MOBILE */
+@media (max-width: 576px) {
+    .container-fluid{
+        padding: 0%;
+    }
+    .navbar-brand{
+        margin-right: 0;
+    }
+    #imgLogo{
+        width: 50%;
+    }
+    div.rowTitle{
+        margin-top: 12%;
+    }
+    .rowTitle h1 {
+        font-size: 2rem;
+    }
+    #title p {
+        font-size: 1.2rem;
+    }
+    #title,
+    #features,
+    #testimonials,
+    #location,
+    #about,
+    #footer {
+        padding: 9%;
+    }
+    #title a,
+    #features a,
+    #testimonials a,
+    #about a {
+        font-size: 1.4rem;
+    }
+    #provaSocial{
+        margin: 12% auto 6%;
+        background-color: rgb(255, 255, 255);
+    }
+    #provaSocial p{
+        padding: 0;
+        margin: 6% auto;
+    }
+    #features h2,
+    #about h2 {
+        font-size: 2rem;
+        margin-bottom: 8%;
+    }
+    #features h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #features p {
+        font-size: 1rem;
+    }
+    #features b {
+        color: rgb(82, 82, 82);  
+    }
+    .itemFeatures{
+        margin: 15% auto;
+    }
+    #carouselTestimonial{
+        padding: 0%;
+    }
+    .carousel-indicators{
+        position: relative;
+    }
+    #testimonials h2{
+        font-size: 2rem;
+    }
+    #location h3{
+        margin-bottom: 0px;
+    }
+    .boxLocation {
+        padding: 0%;
+    }
+    .sarandi{
+        display: none;
+    }
+    .marialva{
+        display: none;
+    }
+    #about p {
+        font-size: 0.9rem;
+    }
+    #footer a{
+        margin: auto 4%;
+    }
+    #footer p{
+        font-size: 1.3rem;
+        margin-bottom: 0px;
+    }
+    #footer i {
+        font-size: 1.8rem;
     }
 }
