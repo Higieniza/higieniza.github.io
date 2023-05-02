@@ -12,6 +12,7 @@ h1{
 
 #pTitle{
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 h2{
@@ -19,7 +20,7 @@ h2{
 }
 
 #title {
-    background-color: #ebebeb;
+    background-color: #ffffff;
 }
 
 .container {
@@ -35,10 +36,11 @@ h2{
 }
 
 #provaSocial{
-    background-color: white;
+    background-color: #ebebeb;
     text-align: center;
     margin-top: 3%;
     font-size: 2rem;
+    border-radius: 10px;
 }
 
 #provaSocial p{
@@ -51,6 +53,7 @@ h2{
 }
 
 #features,
+#benefits,
 #testimonials,
 #location,
 #about,
@@ -108,19 +111,19 @@ div.rowTitle{
 
 .btn{
     margin: 5% 0% 0% 0%;
-    background-color: #4993FA;
+    background-color: #25D366;
     color: #1f1f1f;
     font-size: 2rem;
 }
 
 .btn:hover{
-    background-color: #686868;
+    background-color: #4993FA;
 }
 
 /* CSS for Features */
 #features{
     text-align: center;
-    background-color: white;
+    background-color: #ebebeb;
     position: relative;
 }
 
@@ -142,15 +145,35 @@ div.rowTitle{
 }
 
 #features p,
+#benefits p,
 #about p{
     color: rgb(102, 102, 102);
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 .color{
     background-color: #4993fa49;
     margin-top: 3%;
     padding: 2% 5%;
+}
+
+/* CSS for Benefits */
+
+#firstBenefit img,
+#secondBenefit img{
+    display: block; 
+    margin: 0 auto;
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 8%;
+}
+
+hr{
+    color: #31313177;
+    margin: 12% auto;
 }
 
 /*CSS for Testimonials */
@@ -171,6 +194,7 @@ div.rowTitle{
 
 #testimonials img{
     width: 60%;
+    border-radius: 5px;
 }
 
 /* CSS for Location */
@@ -263,6 +287,7 @@ div.rowTitle{
     }
     .container-fluid,
     #features,
+    #benefits,
     #testimonials,
     #location,
     #about,
@@ -272,6 +297,7 @@ div.rowTitle{
     }
     .container-fluid a,
     #features a,
+    #benefits a,
     #testimonials a,
     #about a{
         font-size: 2rem;
@@ -379,19 +405,20 @@ div.rowTitle{
     }
     #title a,
     #features a,
+    #benefits a,
     #testimonials a,
     #about a {
         font-size: 1.4rem;
     }
     #provaSocial{
         margin: 12% auto 6%;
-        background-color: rgb(255, 255, 255);
     }
     #provaSocial p{
         padding: 0;
         margin: 6% auto;
     }
     #features h2,
+    #benefits h2,
     #about h2 {
         font-size: 2rem;
         margin-bottom: 8%;
@@ -400,7 +427,8 @@ div.rowTitle{
         font-size: 1.5rem;
         text-align: center;
     }
-    #features p {
+    #features p,
+    #benefits p {
         font-size: 1rem;
     }
     #features b {
@@ -431,14 +459,15 @@ div.rowTitle{
         display: none;
     }
     #about p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     #footer a{
         margin: auto 4%;
     }
     #footer p{
-        font-size: 1.3rem;
+        font-size: 1.0rem;
         margin-bottom: 0px;
+        padding-top: 2%;
     }
     #footer i {
         font-size: 1.8rem;
