@@ -28,11 +28,15 @@ h2{
 }
 
 #imgLogo{
-    width: 40%;
+    width: 60%;
 }
 
 .nav-link{
     color: rgb(70, 70, 70);
+}
+
+.nav-item {
+    width: 150px;
 }
 
 #provaSocial{
@@ -52,12 +56,12 @@ h2{
     padding: 2% 10% 4% 10%;
 }
 
-#features,
+#locar-maquina-de-limpeza-de-sofa,
 #benefits,
 #testimonials,
 #location,
-#about,
-#footer{
+#sobre-higieniza-inga,
+#redes-sociais{
     padding: 4% 10%;
 }
 
@@ -92,6 +96,15 @@ h1, h2, h3{
     font-weight: 800;
 }
 
+.navbar-toggler-icon{
+    font-size: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+}
+
 div.rowTitle{
     margin-top: 80px;
 }
@@ -106,7 +119,6 @@ div.rowTitle{
 .nav-item{
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 40px;
 }
 
 .btn{
@@ -120,19 +132,19 @@ div.rowTitle{
     background-color: #4993FA;
 }
 
-/* CSS for Features */
-#features{
+/* CSS for locar-maquina-de-limpeza-de-sofa */
+#locar-maquina-de-limpeza-de-sofa{
     text-align: center;
     background-color: #ebebeb;
     position: relative;
 }
 
-#features .fa-solid{
+#locar-maquina-de-limpeza-de-sofa .fa-solid{
     font-size: 3rem;
     color: #00050c;
 }
 
-#features h3{
+#locar-maquina-de-limpeza-de-sofa h3{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-size: 2rem;
@@ -144,9 +156,9 @@ div.rowTitle{
         margin: 8% auto;
 }
 
-#features p,
+#locar-maquina-de-limpeza-de-sofa p,
 #benefits p,
-#about p{
+#sobre-higieniza-inga p{
     color: rgb(102, 102, 102);
     font-size: 1.5rem;
     text-align: justify;
@@ -159,6 +171,9 @@ div.rowTitle{
 }
 
 /* CSS for Benefits */
+#benefits{
+    text-align: center;
+}
 
 #firstBenefit img,
 #secondBenefit img{
@@ -168,12 +183,13 @@ div.rowTitle{
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    margin-bottom: 8%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 hr{
     color: #31313177;
-    margin: 12% auto;
+    margin: 8% auto;
 }
 
 /*CSS for Testimonials */
@@ -228,31 +244,31 @@ hr{
     text-align: left;
 }
 
-/* CSS for About */
-#about{
+/* CSS for sobre-higieniza-inga */
+#sobre-higieniza-inga{
     background-color: #ebebeb;
     text-align: center;
 }
-#about p{
+#sobre-higieniza-inga p{
     font-size: 1.3rem;
 }
 
-/* CSS for Footer */
-#footer{
+/* CSS for redes-sociais */
+#redes-sociais{
     text-align: center;
     background-color: #292929;
 }
 
-#footer a{
+#redes-sociais a{
     margin: auto 10%;
     color: rgb(255, 255, 255);
 }
 
-#footer i{
+#redes-sociais i{
     font-size: 2.3rem;
 }
 
-#footer p{
+#redes-sociais p{
     color: rgba(255, 255, 255, 0.712);
     margin-top: 3%;
     margin-bottom: 0px;
@@ -270,11 +286,22 @@ hr{
         width: 40%;
     }
     .navbar>.container{
+        display: block;
         justify-content: center;
         padding-right: 0px;
     }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0.1rem;
+    }
     .navbar-brand{
         margin-right: 0px;
+    }
+    .nav-item {
+        width: auto;
+    }
+    .fas{
+        vertical-align: middle;
+        height: 21px;
     }
     #imgLogo{
         width: 50%;
@@ -283,23 +310,23 @@ hr{
         margin-top: 3%;
     }
     .container button{
-        display: none;
+        color: rgb(70, 70, 70);
     }
     .container-fluid,
-    #features,
+    #locar-maquina-de-limpeza-de-sofa,
     #benefits,
     #testimonials,
     #location,
-    #about,
-    #footer{
+    #sobre-higieniza-inga,
+    #redes-sociais{
         text-align: center;
         padding: 6% 10%;
     }
     .container-fluid a,
-    #features a,
+    #locar-maquina-de-limpeza-de-sofa a,
     #benefits a,
     #testimonials a,
-    #about a{
+    #sobre-higieniza-inga a{
         font-size: 2rem;
     }
     #pTitle{
@@ -312,21 +339,23 @@ hr{
     #provaSocial p{
         margin-bottom: 0px;
     }
-    #features h2,
+    #locar-maquina-de-limpeza-de-sofa h2,
+    #benefits h2,
     #testimonials h2{
         font-size: 2.3rem;
     }
-    #features h3{
+    #locar-maquina-de-limpeza-de-sofa h3{
         font-size: 2rem;
         text-align: center;
     }
-    #features p {
+    #locar-maquina-de-limpeza-de-sofa p,
+    #benefits p {
         font-size: 1.2rem;
     }
     .itemFeatures{
         margin: 8% auto;
     }
-    #features .fa-solid {
+    #locar-maquina-de-limpeza-de-sofa .fa-solid {
         font-size: 1.7rem;
     }
     #carouselTestimonial{
@@ -339,10 +368,10 @@ hr{
     #location i{
         font-size: 2.5rem;
     }
-    #footer p{
+    #redes-sociais p{
         font-size: 1.3rem;
     }
-    #footer i{
+    #redes-sociais i{
         font-size: 2.3rem;
         padding: 0% 5% 0% 5%;
     }
@@ -383,8 +412,13 @@ hr{
     .navbar-brand{
         margin-right: 0;
     }
-    #imgLogo{
+    /* #imgLogo{
         width: 50%;
+    } */
+    #imgLogo {
+        width: 40%;
+        display: block;
+        float: left;
     }
     div.rowTitle{
         margin-top: 12%;
@@ -396,18 +430,18 @@ hr{
         font-size: 1.2rem;
     }
     #title,
-    #features,
+    #locar-maquina-de-limpeza-de-sofa,
     #testimonials,
     #location,
-    #about,
-    #footer {
+    #sobre-higieniza-inga,
+    #redes-sociais {
         padding: 9%;
     }
     #title a,
-    #features a,
+    #locar-maquina-de-limpeza-de-sofa a,
     #benefits a,
     #testimonials a,
-    #about a {
+    #sobre-higieniza-inga a {
         font-size: 1.4rem;
     }
     #provaSocial{
@@ -417,21 +451,21 @@ hr{
         padding: 0;
         margin: 6% auto;
     }
-    #features h2,
+    #locar-maquina-de-limpeza-de-sofa h2,
     #benefits h2,
-    #about h2 {
+    #sobre-higieniza-inga h2 {
         font-size: 2rem;
         margin-bottom: 8%;
     }
-    #features h3 {
+    #locar-maquina-de-limpeza-de-sofa h3 {
         font-size: 1.5rem;
         text-align: center;
     }
-    #features p,
+    #locar-maquina-de-limpeza-de-sofa p,
     #benefits p {
         font-size: 1rem;
     }
-    #features b {
+    #locar-maquina-de-limpeza-de-sofa b {
         color: rgb(82, 82, 82);  
     }
     .itemFeatures{
@@ -458,18 +492,24 @@ hr{
     .marialva{
         display: none;
     }
-    #about p {
+    #sobre-higieniza-inga p {
         font-size: 1rem;
     }
-    #footer a{
+    #redes-sociais a{
         margin: auto 4%;
     }
-    #footer p{
+    #redes-sociais p{
         font-size: 1.0rem;
         margin-bottom: 0px;
         padding-top: 2%;
     }
-    #footer i {
+    #redes-sociais i {
         font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 458px) and (max-width: 767px) {
+    .navbar>.container-fluid{
+        display: block;
     }
 }
