@@ -303,9 +303,6 @@ hr{
         vertical-align: middle;
         height: 21px;
     }
-    #imgLogo{
-        width: 50%;
-    }
     div.rowTitle{
         margin-top: 3%;
     }
@@ -412,11 +409,7 @@ hr{
     .navbar-brand{
         margin-right: 0;
     }
-    /* #imgLogo{
-        width: 50%;
-    } */
     #imgLogo {
-        width: 40%;
         display: block;
         float: left;
     }

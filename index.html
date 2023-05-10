@@ -9,14 +9,14 @@
   <link rel="icon" type="image/x-icon" href="images/LogoIcon.png">
 
   <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
+  <!-- <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
         'gtm.start':
           new Date().getTime(), event: 'gtm.js'
       }); var f = d.getElementsByTagName(s)[0],
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-NNQDQTT');</script>
+    })(window, document, 'script', 'dataLayer', 'GTM-NNQDQTT');</script> -->
   <!-- End Google Tag Manager -->
 
   <!-- Google tag (gtag.js) -->
@@ -84,7 +84,13 @@
       <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
           <a class="navbar-brand d-flex align-items-center" href="#">
-            <img id="imgLogo" src="images/logoMenor.png" alt="Logo da empresa maringaense Higieniza Inga - Locação de Máquinas Para Limpeza de Estofados" title="Imagem do Logo">
+            <!-- <img id="imgLogo" src="images/logoMenor.png" alt="Logo da empresa maringaense Higieniza Inga - Locação de Máquinas Para Limpeza de Estofados" title="Imagem do Logo"> -->
+            <picture>
+              <source type="image/webp" srcset="images/logoMenor.webp">
+              <source type="image/png" srcset="images/logoMenor.png">
+              <img id="imgLogo" src="images/logoMenor.png" alt="Logo da empresa maringaense Higieniza Inga - Locação de Máquinas Para Limpeza de Estofados" title="Imagem do Logo">
+            </picture>
+            
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
