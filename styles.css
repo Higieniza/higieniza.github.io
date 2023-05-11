@@ -1,21 +1,25 @@
-body{
+body {
     font-family: 'Quicksand', sans-serif;
 }
 
-h1{
+h1 {
     color: rgb(5, 5, 5);
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    font-size: 3rem; 
+    font-size: 3rem;
     line-height: 1.5;
 }
 
-#pTitle{
+#pTitle {
     font-size: 1.5rem;
     text-align: justify;
 }
 
-h2{
+#title hr{
+    margin-top: 8%;
+}
+
+h2 {
     font-size: 2.5em;
 }
 
@@ -27,11 +31,11 @@ h2{
     padding-left: 0;
 }
 
-#imgLogo{
+#imgLogo {
     width: 60%;
 }
 
-.nav-link{
+.nav-link {
     color: rgb(70, 70, 70);
 }
 
@@ -39,7 +43,7 @@ h2{
     width: 150px;
 }
 
-#provaSocial{
+#provaSocial {
     background-color: #ebebeb;
     text-align: center;
     margin-top: 3%;
@@ -47,7 +51,7 @@ h2{
     border-radius: 10px;
 }
 
-#provaSocial p{
+#provaSocial p {
     margin: 2% auto;
 }
 
@@ -61,12 +65,14 @@ h2{
 #testimonials,
 #location,
 #sobre-higieniza-inga,
-#redes-sociais{
+#redes-sociais {
     padding: 4% 10%;
 }
 
 /* Headings */
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-weight: bold;
 }
 
@@ -74,6 +80,7 @@ h1, h2, h3{
     margin-bottom: 7%;
     font-weight: bold;
 }
+
 #testimonials h2 {
     color: #fff;
     font-weight: 700;
@@ -82,6 +89,7 @@ h1, h2, h3{
     color: #1f1f1f;
     padding-bottom: 4%;
 }
+
 #cta h2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 900;
@@ -90,13 +98,13 @@ h1, h2, h3{
     margin-bottom: 50px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: 800;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     font-size: 1.5rem;
     display: inline-block;
     vertical-align: middle;
@@ -105,46 +113,54 @@ h1, h2, h3{
     text-align: center;
 }
 
-div.rowTitle{
+div.rowTitle {
     margin-top: 80px;
 }
 
-#imgTitle{
-    background-image: url(images/aspirador.jpg);
+#imgTitle {
+    background-image: url(images/limpeza-banco-de-carro.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    max-width: 95%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
-.nav-item{
+.nav-item {
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-.btn{
+.btn {
     margin: 5% 0% 0% 0%;
     background-color: #25D366;
     color: #1f1f1f;
     font-size: 2rem;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #4993FA;
 }
 
 /* CSS for locar-maquina-de-limpeza-de-sofa */
-#locar-maquina-de-limpeza-de-sofa{
+#locar-maquina-de-limpeza-de-sofa {
     text-align: center;
     background-color: #ebebeb;
     position: relative;
 }
 
-#locar-maquina-de-limpeza-de-sofa .fa-solid{
+#locar-maquina-de-limpeza-de-sofa .fa-solid {
     font-size: 3rem;
     color: #00050c;
 }
 
-#locar-maquina-de-limpeza-de-sofa h3{
+#locar-maquina-de-limpeza-de-sofa h3 {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-size: 2rem;
@@ -153,62 +169,66 @@ div.rowTitle{
 }
 
 .itemFeatures {
-        margin: 8% auto;
+    margin: 8% auto;
+}
+
+#locar-maquina-de-limpeza-de-sofa p,
+#sobre-higieniza-inga p {
+        color: rgb(88, 88, 88);
 }
 
 #locar-maquina-de-limpeza-de-sofa p,
 #benefits p,
-#sobre-higieniza-inga p{
-    color: rgb(102, 102, 102);
+#sobre-higieniza-inga p {
     font-size: 1.5rem;
     text-align: justify;
 }
 
-.color{
+.color {
     background-color: #4993fa49;
     margin-top: 3%;
     padding: 2% 5%;
 }
 
 /* CSS for Benefits */
-#benefits{
+#benefits {
     text-align: center;
 }
 
 #firstBenefit img,
-#secondBenefit img{
-    display: block; 
+#secondBenefit img {
+    display: block;
     margin: 0 auto;
     max-width: 70%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
-hr{
+hr {
     color: #31313177;
     margin: 8% auto;
 }
 
 /*CSS for Testimonials */
-#testimonials{
+#testimonials {
     text-align: center;
     background-color: #ebebeb;
 }
 
-#testimonials button:hover{
+#testimonials button:hover {
     background-color: #d1d1d1;
 }
 
-.carousel-indicators{
+.carousel-indicators {
     position: relative;
     margin: 0%;
     margin-top: 2%;
 }
 
-#testimonials img{
+#testimonials img {
     width: 60%;
     border-radius: 5px;
 }
@@ -245,30 +265,31 @@ hr{
 }
 
 /* CSS for sobre-higieniza-inga */
-#sobre-higieniza-inga{
+#sobre-higieniza-inga {
     background-color: #ebebeb;
     text-align: center;
 }
-#sobre-higieniza-inga p{
+
+#sobre-higieniza-inga p {
     font-size: 1.3rem;
 }
 
 /* CSS for redes-sociais */
-#redes-sociais{
+#redes-sociais {
     text-align: center;
     background-color: #292929;
 }
 
-#redes-sociais a{
+#redes-sociais a {
     margin: auto 10%;
     color: rgb(255, 255, 255);
 }
 
-#redes-sociais i{
+#redes-sociais i {
     font-size: 2.3rem;
 }
 
-#redes-sociais p{
+#redes-sociais p {
     color: rgba(255, 255, 255, 0.712);
     margin-top: 3%;
     margin-bottom: 0px;
@@ -278,124 +299,154 @@ hr{
 /* Responsiviness */
 /* TABLET */
 @media (max-width: 991px) {
-    #title h1{
+    #title h1 {
         margin-bottom: 0px;
     }
-    .imgTitle{
-        transform: rotate(0deg);
+
+    .imgTitle {
         width: 40%;
     }
-    .navbar>.container{
+
+    .navbar>.container {
         display: block;
         justify-content: center;
         padding-right: 0px;
     }
-    .navbar-toggler:focus{
+
+    .navbar-toggler:focus {
         box-shadow: 0 0 0 0.1rem;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         margin-right: 0px;
     }
+
     .nav-item {
         width: auto;
     }
-    .fas{
+
+    .fas {
         vertical-align: middle;
         height: 21px;
     }
-    div.rowTitle{
+
+    div.rowTitle {
         margin-top: 3%;
     }
-    .container button{
+
+    .container button {
         color: rgb(70, 70, 70);
     }
+
     .container-fluid,
     #locar-maquina-de-limpeza-de-sofa,
     #benefits,
     #testimonials,
     #location,
     #sobre-higieniza-inga,
-    #redes-sociais{
+    #redes-sociais {
         text-align: center;
         padding: 6% 10%;
     }
+
     .container-fluid a,
     #locar-maquina-de-limpeza-de-sofa a,
     #benefits a,
     #testimonials a,
-    #sobre-higieniza-inga a{
+    #sobre-higieniza-inga a {
         font-size: 2rem;
     }
-    #pTitle{
+
+    #pTitle {
         padding: 2% 0% 2% 0%;
-        margin-bottom: 0px;
+        margin-bottom: 6%;
     }
-    #provaSocial{
+
+    #provaSocial {
         font-size: 1.7rem;
     }
-    #provaSocial p{
+
+    #provaSocial p {
         margin-bottom: 0px;
     }
+
     #locar-maquina-de-limpeza-de-sofa h2,
     #benefits h2,
-    #testimonials h2{
+    #testimonials h2 {
         font-size: 2.3rem;
     }
-    #locar-maquina-de-limpeza-de-sofa h3{
+
+    #locar-maquina-de-limpeza-de-sofa h3 {
         font-size: 2rem;
         text-align: center;
     }
+
     #locar-maquina-de-limpeza-de-sofa p,
     #benefits p {
         font-size: 1.2rem;
     }
-    .itemFeatures{
+
+    .itemFeatures {
         margin: 8% auto;
     }
+
     #locar-maquina-de-limpeza-de-sofa .fa-solid {
         font-size: 1.7rem;
     }
-    #carouselTestimonial{
+
+    #carouselTestimonial {
         padding: 0%;
     }
-    .carousel-indicators{
+
+    .carousel-indicators {
         position: relative;
         margin: 2%;
     }
-    #location i{
+
+    #location i {
         font-size: 2.5rem;
     }
-    #redes-sociais p{
+
+    #redes-sociais p {
         font-size: 1.3rem;
     }
-    #redes-sociais i{
+
+    #redes-sociais i {
         font-size: 2.3rem;
         padding: 0% 5% 0% 5%;
     }
+
     .rowTitle button {
         font-size: 1.25rem;
     }
-    #cta{
+
+    #cta {
         padding: 5% 10%;
     }
+
     .btn {
         margin: 3% 0% 3% 0%;
     }
-    .boxFeatures{
+
+    .boxFeatures {
         align-items: center;
     }
-    .imgFeature{
+
+    .imgFeature {
         width: 80%;
     }
+
     .boxFeatures p,
-    #cta p{
+    #cta p {
         font-size: 2.5rem;
     }
-    .color{
+
+    .color {
         overflow: hidden;
         margin: 0;
     }
-    #testimonials img{
+
+    #testimonials img {
         width: 100%;
     }
 }
@@ -403,25 +454,44 @@ hr{
 
 /* MOBILE */
 @media (max-width: 576px) {
-    .container-fluid{
+    .container-fluid {
         padding: 0%;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         margin-right: 0;
     }
+
     #imgLogo {
         display: block;
         float: left;
     }
-    div.rowTitle{
-        margin-top: 12%;
+
+    div.rowTitle {
+        margin-top: 10%;
     }
+
     .rowTitle h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
+
+    #locar-maquina-de-limpeza-de-sofa h2,
+    #benefits h2,
+    #sobre-higieniza-inga h2,
+    #testimonials h2 {
+        font-size: 1.6rem;
+        margin-bottom: 8%;
+    }
+
+    #locar-maquina-de-limpeza-de-sofa h3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
     #title p {
         font-size: 1.2rem;
     }
+
     #title,
     #locar-maquina-de-limpeza-de-sofa,
     #testimonials,
@@ -430,6 +500,7 @@ hr{
     #redes-sociais {
         padding: 9%;
     }
+
     #title a,
     #locar-maquina-de-limpeza-de-sofa a,
     #benefits a,
@@ -437,72 +508,74 @@ hr{
     #sobre-higieniza-inga a {
         font-size: 1.4rem;
     }
-    #provaSocial{
-        margin: 12% auto 6%;
+
+    #provaSocial {
+        margin: 3% auto 6%;
     }
-    #provaSocial p{
+
+    #provaSocial p {
         padding: 0;
         margin: 6% auto;
     }
-    #locar-maquina-de-limpeza-de-sofa h2,
-    #benefits h2,
-    #sobre-higieniza-inga h2 {
-        font-size: 2rem;
-        margin-bottom: 8%;
-    }
-    #locar-maquina-de-limpeza-de-sofa h3 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
+
     #locar-maquina-de-limpeza-de-sofa p,
     #benefits p {
         font-size: 1rem;
     }
+
     #locar-maquina-de-limpeza-de-sofa b {
-        color: rgb(82, 82, 82);  
+        color: rgb(82, 82, 82);
     }
-    .itemFeatures{
+
+    .itemFeatures {
         margin: 15% auto;
     }
-    #carouselTestimonial{
+
+    #carouselTestimonial {
         padding: 0%;
     }
-    .carousel-indicators{
+
+    .carousel-indicators {
         position: relative;
     }
-    #testimonials h2{
-        font-size: 2rem;
-    }
-    #location h3{
+
+    #location h3 {
         margin-bottom: 0px;
     }
+
     .boxLocation {
         padding: 0%;
     }
-    .sarandi{
+
+    .sarandi {
         display: none;
     }
-    .marialva{
+
+    .marialva {
         display: none;
     }
+
     #sobre-higieniza-inga p {
         font-size: 1rem;
     }
-    #redes-sociais a{
+
+    #redes-sociais a {
         margin: auto 4%;
     }
-    #redes-sociais p{
+
+    #redes-sociais p {
         font-size: 1.0rem;
         margin-bottom: 0px;
         padding-top: 2%;
     }
+
     #redes-sociais i {
         font-size: 1.8rem;
     }
 }
 
 @media (min-width: 458px) and (max-width: 767px) {
-    .navbar>.container-fluid{
+    .navbar>.container-fluid {
         display: block;
     }
 }
