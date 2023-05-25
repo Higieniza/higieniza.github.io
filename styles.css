@@ -546,7 +546,9 @@ hr {
     .boxLocation {
         padding: 0%;
     }
-
+    #h3maringa::after{
+        content: " & Sarandi";
+    }
     .sarandi {
         display: none;
     }
